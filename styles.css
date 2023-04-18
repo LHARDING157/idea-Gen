@@ -8,11 +8,24 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  color: rgb(203, 228, 222);
-  font-size: 2.5rem;
+.box {
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+.box .text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 40%; /* Adjust this value to move the positioned div up and down */
   text-align: center;
-  padding-top: 10%;
+  width: 60%; /* Set the width of the positioned div */
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
 }
 
 .generate-idea {
