@@ -10,7 +10,7 @@ h1 {
 
 .box {
   position: relative;
-  display: inline-block; /* Make the width of box same as image */
+  display: inline-block;
 }
 .box .text {
   position: absolute;
@@ -18,9 +18,9 @@ h1 {
   margin: 0 auto;
   left: 0;
   right: 0;
-  top: 40%; /* Adjust this value to move the positioned div up and down */
+  top: 40%;
   text-align: center;
-  width: 60%; /* Set the width of the positioned div */
+  width: 60%;
 }
 
 .container {
