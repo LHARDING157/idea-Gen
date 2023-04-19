@@ -8,7 +8,7 @@ h1 {
   text-align: center;
 }
 
-.box {
+/* .box {
   position: relative;
   display: inline-block;
 }
@@ -21,9 +21,10 @@ h1 {
   top: 40%;
   text-align: center;
   width: 60%;
-}
+} */
 
 .container {
+  color: rgb(203, 228, 222);
   display: flex;
   justify-content: space-around;
 }

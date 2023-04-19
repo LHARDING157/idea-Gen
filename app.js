@@ -1,7 +1,9 @@
 "use strict";
+
 /*=========
 Nav Bar >>>
 ==========*/
+
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
   document.getElementById("main").style.marginLeft = "250px";
@@ -12,10 +14,12 @@ function closeNav() {
   document.getElementById("main").style.marginLeft = "0";
 }
 
-const button = document.getElementById("generate-idea");
 /*=================
-GENRE GENERATOR >>>
+IDEA GENERATOR >>>
 =================*/
+
+const button = document.getElementById("generate-idea");
+
 const showThisMessage = function (message) {
   let displayArea = document.getElementById("display-idea");
   displayArea.innerHTML = message;
@@ -39,15 +43,72 @@ const getConcept = function () {
   genre.push("Romance");
   genre.push("Mystery");
   genre.push("Horror");
-  genre.push("Science Fiction");
+  genre.push("Supernatural");
   genre.push("History");
   genre.push("Thriller");
+  genre.push("Young Adult");
+  genre.push("Travel");
+  genre.push("Martial Arts");
+  genre.push("Wuxia");
+  genre.push("Sci-Fi");
+  genre.push("Slice of Life");
+  genre.push("Psychological");
+  genre.push("Action");
 
   let theme = [];
-  theme.push("Fantasy");
+  theme.push("Beauty");
+  theme.push("Good vs Evil");
+  theme.push("Coming of Age");
+  theme.push("Loyalty");
+  theme.push("Betrayal");
+  theme.push("Life and Death");
+  theme.push("Justice");
+  theme.push("Family");
+  theme.push("Power");
+  theme.push("Tradition");
+  theme.push("Circle of Life");
+  theme.push("Loneliness");
+  theme.push("Revenge");
+
+  let setting = [];
+  setting.push("In a tatto parlor");
+  setting.push("At the zoo at night");
+  setting.push("In an abandoned mental hospital");
+  setting.push("In a submarine");
+  setting.push("In a magnet factory");
+  setting.push("In the vault of a bank");
+  setting.push("On the edge of a cliff");
+  setting.push("In a haunted house");
+  setting.push("In another world");
+
+  let profession = [];
+  profession.push("Inventor");
+  profession.push("Taxi Driver");
+  profession.push("Magician");
+  profession.push("Scout");
+  profession.push("Warrior");
+  profession.push("Prison guard");
+  profession.push("Hacker");
+  profession.push("Thief");
+  profession.push("Assassin");
+  profession.push("Archer");
+  profession.push("BlackSmith");
+  profession.push("Astronaut");
+  profession.push("Archaeologist");
+  profession.push("Exorsist");
 
   const generatedGenre =
-    "Genre = " + pickRandom(genre) + " / " + "Theme = " + pickRandom(theme);
+    "Genre = " +
+    pickRandom(genre) +
+    " / " +
+    "Theme = " +
+    pickRandom(theme) +
+    " / " +
+    "Setting = " +
+    pickRandom(setting) +
+    " / " +
+    "Character Profession = " +
+    pickRandom(profession);
   console.log("Genre = " + generatedGenre);
   return generatedGenre;
 };
