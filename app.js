@@ -74,12 +74,15 @@ const getConcept = function () {
   setting.push("In a tatto parlor");
   setting.push("At the zoo at night");
   setting.push("In an abandoned mental hospital");
-  setting.push("In a submarine");
-  setting.push("In a magnet factory");
+  setting.push("Under the water");
+  setting.push("In a factory");
   setting.push("In the vault of a bank");
   setting.push("On the edge of a cliff");
   setting.push("In a haunted house");
   setting.push("In another world");
+  setting.push("Outside a castle");
+  setting.push("Overlooking mountains");
+  setting.push("House at the peak of a mountain");
 
   const generatedGenre =
     "Genre = " +
