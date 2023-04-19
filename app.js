@@ -81,22 +81,6 @@ const getConcept = function () {
   setting.push("In a haunted house");
   setting.push("In another world");
 
-  let profession = [];
-  profession.push("Inventor");
-  profession.push("Taxi Driver");
-  profession.push("Magician");
-  profession.push("Scout");
-  profession.push("Warrior");
-  profession.push("Prison guard");
-  profession.push("Hacker");
-  profession.push("Thief");
-  profession.push("Assassin");
-  profession.push("Archer");
-  profession.push("BlackSmith");
-  profession.push("Astronaut");
-  profession.push("Archaeologist");
-  profession.push("Exorsist");
-
   const generatedGenre =
     "Genre = " +
     pickRandom(genre) +
@@ -105,10 +89,7 @@ const getConcept = function () {
     pickRandom(theme) +
     " / " +
     "Setting = " +
-    pickRandom(setting) +
-    " / " +
-    "Character Profession = " +
-    pickRandom(profession);
-  console.log("Genre = " + generatedGenre);
+    pickRandom(setting);
+  console.log("Generated Idea = " + generatedGenre);
   return generatedGenre;
 };
