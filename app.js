@@ -83,6 +83,8 @@ const getConcept = function () {
   setting.push("Outside a castle");
   setting.push("Overlooking mountains");
   setting.push("House at the peak of a mountain");
+  setting.push("Leader of a sect");
+  setting.push("Thrown out of a ruined sect");
 
   const generatedGenre =
     "Genre = " +
