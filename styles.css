@@ -3,7 +3,6 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
 header {
@@ -101,7 +100,7 @@ h1 {
   margin: 0 1rem;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 699px) and (min-width: 520px) {
   .sidebar {
     padding-top: 15px;
   }
