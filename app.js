@@ -98,3 +98,18 @@ const getConcept = function () {
   console.log("Generated Idea = " + generatedGenre);
   return generatedGenre;
 };
+
+/* ===========
+OOOOO BALL >>>
+============*/
+
+function redBall() {
+  let x = document.createElement("LINK");
+  x.setAttribute("rel", "stylesheet");
+  x.setAttribute("type", "text/css");
+  x.setAttribute("href", "animation.css");
+  document.head.appendChild(x);
+  alert(
+    "Yay! That's not gonna stop now so good luck! Muhahahaha its your problem now IM FREEEEEEEE"
+  );
+}
