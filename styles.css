@@ -79,7 +79,7 @@ h1 {
   color: rgb(203, 228, 222);
   display: flex;
   justify-content: space-around;
-  padding: 250px 0;
+  padding: 100px 0;
 }
 
 .generate-idea {
@@ -98,6 +98,22 @@ h1 {
   text-align: center;
   padding: 15px 30px;
   margin: 0 1rem;
+}
+
+section {
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+section img {
+  height: 300px;
+  width: 300px;
+}
+
+.artbtn {
+  padding: 0;
 }
 
 @media screen and (max-width: 699px) and (min-width: 520px) {

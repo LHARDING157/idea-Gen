@@ -100,7 +100,7 @@ const getConcept = function () {
 };
 
 /* ===========
-OOOOO BALL >>>
+WOW A BALL >>>
 ============*/
 
 function redBall() {
