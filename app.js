@@ -1,8 +1,6 @@
 "use strict";
 
-/*=========
-Nav Bar >>>
-==========*/
+/* Nav Bar */
 
 function openNav() {
   document.getElementById("mySidebar").style.width = "250px";
@@ -14,9 +12,7 @@ function closeNav() {
   document.getElementById("main").style.marginLeft = "0";
 }
 
-/*=================
-IDEA GENERATOR >>>
-=================*/
+/* IDEA GENERATOR */
 
 const button = document.getElementById("generate-idea");
 
@@ -89,19 +85,17 @@ const getConcept = function () {
   const generatedGenre =
     "Genre = " +
     pickRandom(genre) +
-    " / " +
+    " | " +
     "Theme = " +
     pickRandom(theme) +
-    " / " +
+    " | " +
     "Setting = " +
     pickRandom(setting);
   console.log("Generated Idea = " + generatedGenre);
   return generatedGenre;
 };
 
-/* ===========
-WOW A BALL >>>
-============*/
+/* WOW A BALL */
 
 function redBall() {
   let x = document.createElement("LINK");
@@ -109,7 +103,5 @@ function redBall() {
   x.setAttribute("type", "text/css");
   x.setAttribute("href", "animation.css");
   document.head.appendChild(x);
-  alert(
-    "Yay! That's not gonna stop now so good luck! Muhahahaha its your problem now IM FREEEEEEEE"
-  );
+  alert("BOIIING");
 }

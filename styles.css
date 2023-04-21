@@ -76,6 +76,7 @@ h1 {
 }
 
 .container {
+  height: 100px;
   color: rgb(203, 228, 222);
   display: flex;
   justify-content: space-around;
@@ -102,7 +103,7 @@ h1 {
 
 section {
   max-width: 1024px;
-  margin: auto;
+  margin: 50px auto;
   display: flex;
   justify-content: space-between;
 }
@@ -112,8 +113,14 @@ section img {
   width: 300px;
 }
 
-.artbtn {
-  padding: 0;
+#artbtn {
+  background-color: rgb(55, 179, 117);
+  color: white;
+  font-size: 2rem;
+  border-radius: 30px;
+  padding: 3rem 4rem;
+  display: block;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 699px) and (min-width: 520px) {
