@@ -34,9 +34,16 @@ button.addEventListener("click", showWebsite);
 
 const getWebsite = function () {
   let website = [];
+  website.push("Make a webiste for video sharing and hosting");
+  website.push("Make a webiste that lets people upload pictures of thier pets");
+  website.push("Make a webiste about magic potatoes");
+  website.push("Make a blog website");
+  website.push("Make a food related website");
+  website.push("Make a healthy eating website");
+  website.push("Make a jobs webiste for helping people get jobs");
   website.push("Make a webiste to spread awareness of indangered hobbits");
 
-  const generatedWebsite = "Website Idea = " + pickRandom(website);
+  const generatedWebsite = pickRandom(website);
   console.log("Generated Idea" + generatedWebsite);
   return generatedWebsite;
 };
